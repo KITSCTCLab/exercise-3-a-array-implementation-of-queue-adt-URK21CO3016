@@ -89,7 +89,7 @@ class Solution:
           The data that is popped out if the stack is not empty.
         """
         # Write your code here
-         if not self.is_stack_empty():
+        if not self.is_stack_empty():
             self.top -= 1
             return self.stack.pop(self.top + 1)
 
