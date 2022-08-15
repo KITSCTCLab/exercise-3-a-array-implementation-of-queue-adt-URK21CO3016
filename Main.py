@@ -119,7 +119,7 @@ solution = Solution(length_of_text)
 for index in range(length_of_text):
     # Write code here
 
-is_palindrome = True
+    is_palindrome = True
 '''
 pop the top character from stack
 dequeue the first character from queue
